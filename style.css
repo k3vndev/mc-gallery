@@ -1,0 +1,39 @@
+/*
+  Theme Name: MC Screenshots
+  Author: Kevin Rodriguez
+  Version: 1.0
+  Description: A cozy gallery to show off my Minecraft world 🥰
+*/
+
+@import "tailwindcss";
+
+body {
+  background-image: linear-gradient(to top, #000, #111);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  min-height: 100vh;
+  overflow-x: hidden;
+  top: 32px;
+}
+
+html {
+  margin-top: 0 !important;
+}
+
+#wpadminbar {
+  position: fixed !important;
+}
+
+* {
+  font-family: 'Poppins';
+}
+
+#wpadminbar {
+  position: fixed;
+}
+
+:root {
+  --page-p-w: 16rem;
+}
