@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@utility w-page-content {
+  @apply xl:w-[70rem] lg:w-3xl w-xl;
+}

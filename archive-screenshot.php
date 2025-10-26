@@ -1,4 +1,4 @@
-<main class="max-w-6xl mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+<main class="w-full p-4 grid lg:grid-cols-2 grid-cols-1 gap-6 lg:mt-16 lg:mb-64">
     <?php
     if (have_posts()) {
         while (have_posts()) {

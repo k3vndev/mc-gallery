@@ -5,8 +5,6 @@
   Description: A cozy gallery to show off my Minecraft world 🥰
 */
 
-@import "tailwindcss";
-
 body {
   background-image: linear-gradient(to top, #000, #111);
   background-repeat: no-repeat;
@@ -32,8 +30,4 @@ html {
 
 #wpadminbar {
   position: fixed;
-}
-
-:root {
-  --page-p-w: 16rem;
 }

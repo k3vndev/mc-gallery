@@ -1,6 +1,11 @@
 <?php get_header(); ?>
 
-<div id="page">
-  <h1 class="text-2xl text-red-400" >Hello world</h1>
+<?php
+$query = new WP_Query(['post_type' => 'screenshot']);
+?>
+
+<div id="page" class="w-page-content mx-auto">
+  <?php get_template_part('archive', 'screenshot') ?>
 </div>
-  
+
+<?php get_footer(); ?>
