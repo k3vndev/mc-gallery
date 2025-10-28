@@ -9,8 +9,11 @@
   <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-  <header id="app-header" class="w-page-content mx-auto mt-20 flex flex-col gap-3">
+<body class="<?= body_class(); ?> w-screen">
+  <header id="app-header" class="
+      w-page-content mx-auto mt-20 flex flex-col 
+      items-center gap-3 text-center text-pretty px-8
+  ">
     <h1 class="font-bold text-white text-5xl"><?php bloginfo('name'); ?></h1>
     <p class="text-white text-xl"><?php bloginfo('description'); ?></p>
   </header>
